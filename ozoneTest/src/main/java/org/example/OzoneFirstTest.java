@@ -106,7 +106,8 @@ public class OzoneFirstTest {
             Random random = new Random();
             try {
                 for (;;) {
-                    ObjectStore store = connect().getObjectStore();
+                    OzoneClient client = connect();
+                    ObjectStore store = client.getObjectStore();
 
                     OzoneVolume vol = checkAndCreateVol(store, "vol1");
                     OzoneBucket buck = checkAndCreateBuck(vol, "buck1");
@@ -115,6 +116,7 @@ public class OzoneFirstTest {
                         addKey(buck, random).close();
                     }
                     conter.inc();
+                    client.close();
                 }
 
             } catch (RuntimeException | IOException e) {
