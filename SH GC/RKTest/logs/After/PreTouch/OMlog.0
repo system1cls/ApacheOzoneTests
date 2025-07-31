@@ -1,0 +1,265 @@
+[0.010s][info][gc] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[0.010s][info][gc] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[0.010s][info][gc] Using Shenandoah
+[0.050s][info][gc,ergo] Pacer for Idle. Initial: 40642K, Alloc Tax Rate: 1.0x
+[0.050s][info][gc,init] Version: 21.0.7+6-Ubuntu-0ubuntu122.04 (release)
+[0.050s][info][gc,init] CPUs: 4 total, 4 available
+[0.050s][info][gc,init] Memory: 7937M
+[0.050s][info][gc,init] Large Page Support: Disabled
+[0.050s][info][gc,init] NUMA Support: Disabled
+[0.050s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.050s][info][gc,init] Heap Min Capacity: 6656K
+[0.050s][info][gc,init] Heap Initial Capacity: 127488K
+[0.050s][info][gc,init] Heap Max Capacity: 2032128K
+[0.050s][info][gc,init] Pre-touch: Enabled
+[0.050s][info][gc,init] Mode: Snapshot-At-The-Beginning (SATB)
+[0.050s][info][gc,init] Heuristics: Adaptive
+[0.050s][info][gc,init] Heap Region Count: 3969
+[0.050s][info][gc,init] Heap Region Size: 512K
+[0.050s][info][gc,init] TLAB Size Max: 512K
+[0.050s][info][gc,init] Humongous Object Threshold: 512K
+[0.050s][info][gc,init] Parallel Workers: 8
+[0.050s][info][gc,init] Concurrent Workers: 2
+[0.064s][info][gc,metaspace] CDS archive(s) mapped at: [0x00007fc687000000-0x00007fc687c97000-0x00007fc687c97000), size 13201408, SharedBaseAddress: 0x00007fc687000000, ArchiveRelocationMode: 1.
+[0.064s][info][gc,metaspace] Compressed class space mapped at: 0x00007fc688000000-0x00007fc6c8000000, reserved size: 1073741824
+[0.064s][info][gc,metaspace] Narrow klass base: 0x00007fc687000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[1.967s][info][gc          ] Trigger: Metadata GC Threshold
+[1.967s][info][gc,ergo     ] Free: 1746M, Max: 512K regular, 1746M humongous, Frag: 0% external, 0% internal; Reserve: 101888K, Max: 512K
+[1.967s][info][gc,start    ] GC(0) Concurrent reset
+[1.967s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent reset
+[1.967s][info][gc,ergo     ] GC(0) Pacer for Reset. Non-Taxable: 1984M
+[1.967s][info][gc          ] GC(0) Concurrent reset 0.405ms
+[1.968s][info][gc,start    ] GC(0) Pause Init Mark (unload classes)
+[1.968s][info][gc,task     ] GC(0) Using 8 of 8 workers for init marking
+[1.968s][info][gc,ergo     ] GC(0) Pacer for Mark. Expected Live: 198M, Free: 1746M, Non-Taxable: 174M, Alloc Tax Rate: 0.1x
+[1.968s][info][gc          ] GC(0) Pause Init Mark (unload classes) 0.077ms
+[1.968s][info][gc,start    ] GC(0) Concurrent marking roots
+[1.968s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent marking roots
+[1.969s][info][gc          ] GC(0) Concurrent marking roots 0.822ms
+[1.969s][info][gc,start    ] GC(0) Concurrent marking (unload classes)
+[1.969s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent marking
+[1.998s][info][gc          ] GC(0) Concurrent marking (unload classes) 28.825ms
+[1.998s][info][gc,start    ] GC(0) Pause Final Mark (unload classes)
+[1.998s][info][gc,task     ] GC(0) Using 8 of 8 workers for final marking
+[2.000s][info][gc,ergo     ] GC(0) Adaptive CSet Selection. Target Free: 281M, Actual Free: 1848M, Max CSet: 84672K, Min Garbage: 0B
+[2.000s][info][gc,ergo     ] GC(0) Collectable Garbage: 72669K (98%), Immediate: 4847K (6%), CSet: 67822K (92%)
+[2.000s][info][gc,ergo     ] GC(0) Pacer for Evacuation. Used CSet: 76800K, Free: 1749M, Non-Taxable: 174M, Alloc Tax Rate: 1.1x
+[2.000s][info][gc          ] GC(0) Pause Final Mark (unload classes) 2.263ms
+[2.000s][info][gc,start    ] GC(0) Concurrent thread roots
+[2.000s][info][gc,task     ] GC(0) Using 2 of 8 workers for Concurrent thread roots
+[2.001s][info][gc          ] GC(0) Concurrent thread roots 1.172ms
+[2.001s][info][gc,start    ] GC(0) Concurrent weak references
+[2.001s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent weak references
+[2.002s][info][gc,ref      ] GC(0) Encountered references: Soft: 3954, Weak: 2100, Final: 4, Phantom: 820
+[2.002s][info][gc,ref      ] GC(0) Discovered  references: Soft: 0, Weak: 1286, Final: 0, Phantom: 612
+[2.002s][info][gc,ref      ] GC(0) Enqueued    references: Soft: 0, Weak: 498, Final: 0, Phantom: 230
+[2.002s][info][gc          ] GC(0) Concurrent weak references 0.488ms
+[2.002s][info][gc,start    ] GC(0) Concurrent weak roots
+[2.002s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent weak root
+[2.004s][info][gc          ] GC(0) Concurrent weak roots 2.420ms
+[2.004s][info][gc,start    ] GC(0) Concurrent cleanup
+[2.004s][info][gc          ] GC(0) Concurrent cleanup 140M->135M(143M) 0.099ms
+[2.004s][info][gc,ergo     ] GC(0) Free: 1748M, Max: 512K regular, 1743M humongous, Frag: 1% external, 0% internal; Reserve: 101005K, Max: 512K
+[2.004s][info][gc,start    ] GC(0) Concurrent class unloading
+[2.004s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent class unloading
+[2.019s][info][gc          ] GC(0) Concurrent class unloading 14.510ms
+[2.019s][info][gc,start    ] GC(0) Concurrent strong roots
+[2.019s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent strong root
+[2.020s][info][gc          ] GC(0) Concurrent strong roots 1.326ms
+[2.020s][info][gc,start    ] GC(0) Concurrent evacuation
+[2.020s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent evacuation
+[2.028s][info][gc          ] GC(0) Concurrent evacuation 7.769ms
+[2.028s][info][gc,start    ] GC(0) Pause Init Update Refs
+[2.028s][info][gc,ergo     ] GC(0) Pacer for Update Refs. Used: 144M, Free: 1748M, Non-Taxable: 174M, Alloc Tax Rate: 1.1x
+[2.028s][info][gc          ] GC(0) Pause Init Update Refs 0.053ms
+[2.028s][info][gc,start    ] GC(0) Concurrent update references
+[2.028s][info][gc,task     ] GC(0) Using 2 of 8 workers for concurrent reference update
+[2.056s][info][gc          ] GC(0) Concurrent update references 27.854ms
+[2.056s][info][gc,start    ] GC(0) Concurrent update thread roots
+[2.056s][info][gc          ] GC(0) Concurrent update thread roots 0.254ms
+[2.057s][info][gc,start    ] GC(0) Pause Final Update Refs
+[2.057s][info][gc,task     ] GC(0) Using 8 of 8 workers for final reference update
+[2.057s][info][gc          ] GC(0) Pause Final Update Refs 0.092ms
+[2.057s][info][gc,start    ] GC(0) Concurrent cleanup
+[2.057s][info][gc          ] GC(0) Concurrent cleanup 146M->71M(152M) 0.117ms
+[2.057s][info][gc,ergo     ] Free: 1811M, Max: 512K regular, 1733M humongous, Frag: 5% external, 0% internal; Reserve: 101888K, Max: 512K
+[2.057s][info][gc,stats    ] 
+[2.057s][info][gc,stats    ] All times are wall-clock times, except per-root-class counters, that are sum over
+[2.057s][info][gc,stats    ] all workers. Dividing the <total> over the root stage time estimates parallelism.
+[2.057s][info][gc,stats    ] 
+[2.057s][info][gc,stats    ] Concurrent Reset                    502 us
+[2.057s][info][gc,stats    ] Pause Init Mark (G)                 242 us
+[2.058s][info][gc,stats    ] Pause Init Mark (N)                  93 us
+[2.058s][info][gc,stats    ]   Update Region States               21 us
+[2.058s][info][gc,stats    ] Concurrent Mark Roots               877 us, parallelism: 1.53x
+[2.058s][info][gc,stats    ]   CMR: <total>                     1341 us
+[2.058s][info][gc,stats    ]   CMR: Thread Roots                 968 us, workers (us): 623, 344, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ]   CMR: VM Strong Roots              113 us, workers (us):  64,  49, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ]   CMR: CLDG Roots                   261 us, workers (us): ---, 261, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ] Concurrent Marking                28857 us
+[2.058s][info][gc,stats    ] Pause Final Mark (G)               2323 us
+[2.058s][info][gc,stats    ] Pause Final Mark (N)               2273 us
+[2.058s][info][gc,stats    ]   Finish Mark                      2067 us
+[2.058s][info][gc,stats    ]   Update Region States               33 us
+[2.058s][info][gc,stats    ]   Choose Collection Set              78 us
+[2.058s][info][gc,stats    ]   Rebuild Free Set                   17 us
+[2.058s][info][gc,stats    ] Concurrent Thread Roots            1195 us, parallelism: 1.68x
+[2.058s][info][gc,stats    ]   CTR: <total>                     2009 us
+[2.058s][info][gc,stats    ]   CTR: Thread Roots                2009 us, workers (us): 905, 1104, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ] Concurrent Weak References          498 us, parallelism: 0.65x
+[2.058s][info][gc,stats    ]   CWRF: <total>                     325 us
+[2.058s][info][gc,stats    ]   CWRF: Weak References             325 us, workers (us): 324,   1, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ] Concurrent Weak Roots              2448 us
+[2.058s][info][gc,stats    ]   Roots                            1414 us, parallelism: 1.74x
+[2.058s][info][gc,stats    ]     CWR: <total>                   2466 us
+[2.058s][info][gc,stats    ]     CWR: Code Cache Roots           690 us, workers (us): 373, 318, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ]     CWR: VM Weak Roots             1758 us, workers (us): 994, 764, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ]     CWR: CLDG Roots                  17 us, workers (us): ---,  17, ---, ---, ---, ---, ---, ---, 
+[2.058s][info][gc,stats    ]   Rendezvous                        984 us
+[2.058s][info][gc,stats    ] Concurrent Cleanup                  109 us
+[2.058s][info][gc,stats    ] Concurrent Class Unloading        14565 us
+[2.058s][info][gc,stats    ]   Unlink Stale                     2415 us
+[2.058s][info][gc,stats    ]     System Dictionary               112 us
+[2.058s][info][gc,stats    ]     Weak Class Links                  0 us
+[2.058s][info][gc,stats    ]     Code Roots                     2302 us
+[2.058s][info][gc,stats    ]   Rendezvous                       1078 us
+[2.058s][info][gc,stats    ]   Purge Unlinked                  10987 us
+[2.058s][info][gc,stats    ]     Code Roots                    10969 us
+[2.058s][info][gc,stats    ]     CLDG                             18 us
+[2.059s][info][gc,stats    ]     Exception Caches                  0 us
+[2.059s][info][gc,stats    ] Concurrent Strong Roots            1385 us, parallelism: 0.90x
+[2.059s][info][gc,stats    ]   CSR: <total>                     1248 us
+[2.059s][info][gc,stats    ]   CSR: VM Strong Roots               15 us, workers (us):  11,   4, ---, ---, ---, ---, ---, ---, 
+[2.059s][info][gc,stats    ]   CSR: CLDG Roots                  1233 us, workers (us): ---, 1233, ---, ---, ---, ---, ---, ---, 
+[2.059s][info][gc,stats    ] Concurrent Evacuation              7847 us
+[2.059s][info][gc,stats    ] Pause Init Update Refs (G)          235 us
+[2.059s][info][gc,stats    ] Pause Init Update Refs (N)           60 us
+[2.059s][info][gc,stats    ]   Manage GCLABs                       5 us
+[2.059s][info][gc,stats    ] Concurrent Update Refs            27942 us
+[2.059s][info][gc,stats    ] Concurrent Update Thread Roots      319 us
+[2.059s][info][gc,stats    ] Pause Final Update Refs (G)         220 us
+[2.059s][info][gc,stats    ] Pause Final Update Refs (N)         103 us
+[2.059s][info][gc,stats    ]   Update Region States               35 us
+[2.059s][info][gc,stats    ]   Trash Collection Set                4 us
+[2.059s][info][gc,stats    ]   Rebuild Free Set                   18 us
+[2.059s][info][gc,stats    ] Concurrent Cleanup                  206 us
+[2.059s][info][gc,stats    ] 
+[2.059s][info][gc,stats    ] Allocation pacing accrued:
+[2.059s][info][gc,stats    ]       0 of  2009 ms (  0.0%): <total>
+[2.059s][info][gc,stats    ]       0 of  2009 ms (  0.0%): <average total>
+[2.059s][info][gc,stats    ] 
+[2.059s][info][gc,metaspace] Metaspace: 21205K(21632K)->21644K(21952K) NonClass: 18855K(19072K)->19236K(19392K) Class: 2350K(2560K)->2407K(2560K)
+[2.059s][info][gc,ergo     ] Pacer for Idle. Initial: 40642K, Alloc Tax Rate: 1.0x
+[6.358s][info][gc          ] Cancelling GC: Stopping VM
+[6.359s][info][gc,heap,exit] Heap
+[6.359s][info][gc,heap,exit] Shenandoah Heap
+[6.359s][info][gc,heap,exit]  1984M max, 1984M soft max, 152M committed, 85032K used
+[6.359s][info][gc,heap,exit]  3969 x 512K regions
+[6.359s][info][gc,heap,exit] Status: cancelled
+[6.359s][info][gc,heap,exit] Reserved region:
+[6.359s][info][gc,heap,exit]  - [0x0000000083f80000, 0x0000000100000000) 
+[6.359s][info][gc,heap,exit] Collection set:
+[6.359s][info][gc,heap,exit]  - map (vanilla): 0x000000000001107f
+[6.359s][info][gc,heap,exit]  - map (biased):  0x0000000000010000
+[6.359s][info][gc,heap,exit] 
+[6.359s][info][gc,heap,exit]  Metaspace       used 25060K, committed 25344K, reserved 1114112K
+[6.359s][info][gc,heap,exit]   class space    used 2775K, committed 2880K, reserved 1048576K
+[6.359s][info][gc,stats    ] 
+[6.360s][info][gc,stats    ] GC STATISTICS:
+[6.360s][info][gc,stats    ]   "(G)" (gross) pauses include VM time: time to notify and block threads, do the pre-
+[6.360s][info][gc,stats    ]         and post-safepoint housekeeping. Use -Xlog:safepoint+stats to dissect.
+[6.360s][info][gc,stats    ]   "(N)" (net) pauses are the times spent in the actual GC code.
+[6.360s][info][gc,stats    ]   "a" is average time for each phase, look at levels to see if average makes sense.
+[6.360s][info][gc,stats    ]   "lvls" are quantiles: 0% (minimum), 25%, 50% (median), 75%, 100% (maximum).
+[6.360s][info][gc,stats    ] 
+[6.360s][info][gc,stats    ]   All times are wall-clock times, except per-root-class counters, that are sum over
+[6.360s][info][gc,stats    ]   all workers. Dividing the <total> over the root stage time estimates parallelism.
+[6.360s][info][gc,stats    ] 
+[6.360s][info][gc,stats    ]   Pacing delays are measured from entering the pacing code till exiting it. Therefore,
+[6.360s][info][gc,stats    ]   observed pacing delays may be higher than the threshold when paced thread spent more
+[6.360s][info][gc,stats    ]   time in the pacing code. It usually happens when thread is de-scheduled while paced,
+[6.360s][info][gc,stats    ]   OS takes longer to unblock the thread, or JVM experiences an STW pause.
+[6.360s][info][gc,stats    ] 
+[6.360s][info][gc,stats    ]   Higher delay would prevent application outpacing the GC, but it will hide the GC latencies
+[6.360s][info][gc,stats    ]   from the STW pause times. Pacing affects the individual threads, and so it would also be
+[6.360s][info][gc,stats    ]   invisible to the usual profiling tools, but would add up to end-to-end application latency.
+[6.360s][info][gc,stats    ]   Raise max pacing delay with care.
+[6.360s][info][gc,stats    ] 
+[6.360s][info][gc,stats    ] Concurrent Reset               =    0.001 s (a =      502 us) (n =     1) (lvls, us =      500,      500,      500,      500,      502)
+[6.360s][info][gc,stats    ] Pause Init Mark (G)            =    0.000 s (a =      242 us) (n =     1) (lvls, us =      240,      240,      240,      240,      242)
+[6.360s][info][gc,stats    ] Pause Init Mark (N)            =    0.000 s (a =       93 us) (n =     1) (lvls, us =       93,       93,       93,       93,       93)
+[6.360s][info][gc,stats    ]   Update Region States         =    0.000 s (a =       21 us) (n =     1) (lvls, us =       21,       21,       21,       21,       21)
+[6.360s][info][gc,stats    ] Concurrent Mark Roots          =    0.001 s (a =      877 us) (n =     1) (lvls, us =      875,      875,      875,      875,      877)
+[6.360s][info][gc,stats    ]   CMR: <total>                 =    0.001 s (a =     1341 us) (n =     1) (lvls, us =     1328,     1328,     1328,     1328,     1341)
+[6.360s][info][gc,stats    ]   CMR: Thread Roots            =    0.001 s (a =      968 us) (n =     1) (lvls, us =      967,      967,      967,      967,      968)
+[6.360s][info][gc,stats    ]   CMR: VM Strong Roots         =    0.000 s (a =      113 us) (n =     1) (lvls, us =      111,      111,      111,      111,      113)
+[6.360s][info][gc,stats    ]   CMR: CLDG Roots              =    0.000 s (a =      261 us) (n =     1) (lvls, us =      260,      260,      260,      260,      261)
+[6.360s][info][gc,stats    ] Concurrent Marking             =    0.029 s (a =    28857 us) (n =     1) (lvls, us =    28711,    28711,    28711,    28711,    28857)
+[6.360s][info][gc,stats    ] Pause Final Mark (G)           =    0.002 s (a =     2323 us) (n =     1) (lvls, us =     2305,     2305,     2305,     2305,     2323)
+[6.360s][info][gc,stats    ] Pause Final Mark (N)           =    0.002 s (a =     2273 us) (n =     1) (lvls, us =     2266,     2266,     2266,     2266,     2273)
+[6.360s][info][gc,stats    ]   Finish Mark                  =    0.002 s (a =     2067 us) (n =     1) (lvls, us =     2051,     2051,     2051,     2051,     2067)
+[6.360s][info][gc,stats    ]   Update Region States         =    0.000 s (a =       33 us) (n =     1) (lvls, us =       33,       33,       33,       33,       33)
+[6.360s][info][gc,stats    ]   Choose Collection Set        =    0.000 s (a =       78 us) (n =     1) (lvls, us =       78,       78,       78,       78,       78)
+[6.360s][info][gc,stats    ]   Rebuild Free Set             =    0.000 s (a =       17 us) (n =     1) (lvls, us =       17,       17,       17,       17,       17)
+[6.360s][info][gc,stats    ] Concurrent Thread Roots        =    0.001 s (a =     1195 us) (n =     1) (lvls, us =     1191,     1191,     1191,     1191,     1195)
+[6.360s][info][gc,stats    ]   CTR: <total>                 =    0.002 s (a =     2009 us) (n =     1) (lvls, us =     1992,     1992,     1992,     1992,     2009)
+[6.360s][info][gc,stats    ]   CTR: Thread Roots            =    0.002 s (a =     2009 us) (n =     1) (lvls, us =     1992,     1992,     1992,     1992,     2009)
+[6.360s][info][gc,stats    ] Concurrent Weak References     =    0.000 s (a =      498 us) (n =     1) (lvls, us =      496,      496,      496,      496,      498)
+[6.360s][info][gc,stats    ]   CWRF: <total>                =    0.000 s (a =      325 us) (n =     1) (lvls, us =      324,      324,      324,      324,      325)
+[6.360s][info][gc,stats    ]   CWRF: Weak References        =    0.000 s (a =      325 us) (n =     1) (lvls, us =      324,      324,      324,      324,      325)
+[6.360s][info][gc,stats    ] Concurrent Weak Roots          =    0.002 s (a =     2448 us) (n =     1) (lvls, us =     2441,     2441,     2441,     2441,     2448)
+[6.360s][info][gc,stats    ]   Roots                        =    0.001 s (a =     1414 us) (n =     1) (lvls, us =     1406,     1406,     1406,     1406,     1414)
+[6.360s][info][gc,stats    ]     CWR: <total>               =    0.002 s (a =     2466 us) (n =     1) (lvls, us =     2461,     2461,     2461,     2461,     2466)
+[6.360s][info][gc,stats    ]     CWR: Code Cache Roots      =    0.001 s (a =      690 us) (n =     1) (lvls, us =      689,      689,      689,      689,      690)
+[6.360s][info][gc,stats    ]     CWR: VM Weak Roots         =    0.002 s (a =     1758 us) (n =     1) (lvls, us =     1758,     1758,     1758,     1758,     1758)
+[6.360s][info][gc,stats    ]     CWR: CLDG Roots            =    0.000 s (a =       17 us) (n =     1) (lvls, us =       17,       17,       17,       17,       17)
+[6.360s][info][gc,stats    ]   Rendezvous                   =    0.001 s (a =      984 us) (n =     1) (lvls, us =      982,      982,      982,      982,      984)
+[6.360s][info][gc,stats    ] Concurrent Cleanup             =    0.000 s (a =      109 us) (n =     1) (lvls, us =      107,      107,      107,      107,      109)
+[6.360s][info][gc,stats    ] Concurrent Class Unloading     =    0.015 s (a =    14565 us) (n =     1) (lvls, us =    14453,    14453,    14453,    14453,    14565)
+[6.360s][info][gc,stats    ]   Unlink Stale                 =    0.002 s (a =     2415 us) (n =     1) (lvls, us =     2402,     2402,     2402,     2402,     2415)
+[6.360s][info][gc,stats    ]     System Dictionary          =    0.000 s (a =      112 us) (n =     1) (lvls, us =      111,      111,      111,      111,      112)
+[6.360s][info][gc,stats    ]     Weak Class Links           =    0.000 s (a =        0 us) (n =     1) (lvls, us =        0,        0,        0,        0,        0)
+[6.360s][info][gc,stats    ]     Code Roots                 =    0.002 s (a =     2302 us) (n =     1) (lvls, us =     2285,     2285,     2285,     2285,     2302)
+[6.360s][info][gc,stats    ]   Rendezvous                   =    0.001 s (a =     1078 us) (n =     1) (lvls, us =     1074,     1074,     1074,     1074,     1078)
+[6.360s][info][gc,stats    ]   Purge Unlinked               =    0.011 s (a =    10987 us) (n =     1) (lvls, us =    10938,    10938,    10938,    10938,    10987)
+[6.360s][info][gc,stats    ]     Code Roots                 =    0.011 s (a =    10969 us) (n =     1) (lvls, us =    10938,    10938,    10938,    10938,    10969)
+[6.360s][info][gc,stats    ]     CLDG                       =    0.000 s (a =       18 us) (n =     1) (lvls, us =       18,       18,       18,       18,       18)
+[6.360s][info][gc,stats    ]     Exception Caches           =    0.000 s (a =        0 us) (n =     1) (lvls, us =        0,        0,        0,        0,        0)
+[6.360s][info][gc,stats    ] Concurrent Strong Roots        =    0.001 s (a =     1385 us) (n =     1) (lvls, us =     1367,     1367,     1367,     1367,     1385)
+[6.360s][info][gc,stats    ]   CSR: <total>                 =    0.001 s (a =     1248 us) (n =     1) (lvls, us =     1230,     1230,     1230,     1230,     1248)
+[6.360s][info][gc,stats    ]   CSR: VM Strong Roots         =    0.000 s (a =       15 us) (n =     1) (lvls, us =       15,       15,       15,       15,       15)
+[6.360s][info][gc,stats    ]   CSR: CLDG Roots              =    0.001 s (a =     1233 us) (n =     1) (lvls, us =     1230,     1230,     1230,     1230,     1233)
+[6.361s][info][gc,stats    ] Concurrent Evacuation          =    0.008 s (a =     7847 us) (n =     1) (lvls, us =     7832,     7832,     7832,     7832,     7847)
+[6.361s][info][gc,stats    ] Pause Init Update Refs (G)     =    0.000 s (a =      235 us) (n =     1) (lvls, us =      234,      234,      234,      234,      235)
+[6.361s][info][gc,stats    ] Pause Init Update Refs (N)     =    0.000 s (a =       60 us) (n =     1) (lvls, us =       60,       60,       60,       60,       60)
+[6.361s][info][gc,stats    ]   Manage GCLABs                =    0.000 s (a =        5 us) (n =     1) (lvls, us =        5,        5,        5,        5,        5)
+[6.361s][info][gc,stats    ] Concurrent Update Refs         =    0.028 s (a =    27942 us) (n =     1) (lvls, us =    27930,    27930,    27930,    27930,    27942)
+[6.361s][info][gc,stats    ] Concurrent Update Thread Roots =    0.000 s (a =      319 us) (n =     1) (lvls, us =      318,      318,      318,      318,      319)
+[6.361s][info][gc,stats    ] Pause Final Update Refs (G)    =    0.000 s (a =      220 us) (n =     1) (lvls, us =      219,      219,      219,      219,      220)
+[6.361s][info][gc,stats    ] Pause Final Update Refs (N)    =    0.000 s (a =      103 us) (n =     1) (lvls, us =      102,      102,      102,      102,      103)
+[6.361s][info][gc,stats    ]   Update Region States         =    0.000 s (a =       35 us) (n =     1) (lvls, us =       35,       35,       35,       35,       35)
+[6.361s][info][gc,stats    ]   Trash Collection Set         =    0.000 s (a =        4 us) (n =     1) (lvls, us =        4,        4,        4,        4,        4)
+[6.361s][info][gc,stats    ]   Rebuild Free Set             =    0.000 s (a =       18 us) (n =     1) (lvls, us =       18,       18,       18,       18,       18)
+[6.361s][info][gc,stats    ] Concurrent Cleanup             =    0.000 s (a =      206 us) (n =     1) (lvls, us =      205,      205,      205,      205,      206)
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ] Under allocation pressure, concurrent cycles may cancel, and either continue cycle
+[6.361s][info][gc,stats    ] under stop-the-world pause or result in stop-the-world Full GC. Increase heap size,
+[6.361s][info][gc,stats    ] tune GC heuristics, set more aggressive pacing delay, or lower allocation rate
+[6.361s][info][gc,stats    ] to avoid Degenerated and Full GC cycles.
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ]     1 successful concurrent GCs
+[6.361s][info][gc,stats    ]       0 invoked explicitly
+[6.361s][info][gc,stats    ]       0 invoked implicitly
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ]     0 Degenerated GCs
+[6.361s][info][gc,stats    ]       0 caused by allocation failure
+[6.361s][info][gc,stats    ]       0 upgraded to Full GC
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ]     0 Full GCs
+[6.361s][info][gc,stats    ]       0 invoked explicitly
+[6.361s][info][gc,stats    ]       0 invoked implicitly
+[6.361s][info][gc,stats    ]       0 caused by allocation failure
+[6.361s][info][gc,stats    ]       0 upgraded from Degenerated GC
+[6.361s][info][gc,stats    ] 
+[6.361s][info][gc,stats    ] 
